@@ -1,0 +1,289 @@
+# ***** English Language File ***** #
+
+# !!! This file does not support placeholders from PlaceholderAPI !!! #
+
+Prefix: '&4&l[&c&lRankCraft&4&l]'
+
+# *** General Messages *** #
+HungerMessage: '&4You are losing HP because you are hungry!!! Eat something!!!'
+NoPermissionMessage: '&4You do not have permission to do this!'
+SuccessfulUpgrade: 'The upgrade was successful!'
+NotEnoughGold: 'You do not have enough gold!'
+ActionNotAllowedInWorld: '&4This action is disabled in this world!'
+
+# {Gold}: gold picked up
+PickupGoldMessage: '&e+ {Gold} gold'
+
+DeathTitle: 'YOU DIED!'
+DeathSubtitle: 'Watch out noob :)'
+
+CannotWearArmor: '&4You cannot wear this armor piece!'
+
+# {NewLines}: The backpack's lines after the upgrade
+BpAfterUpgrade: 'Your backpack has now {NewLines} lines of storage!'
+
+# {Xp}: Xp rewarded
+# {Gold}: Gold rewarded
+RewardMessage: 'You were rewarded {Gold} gold, {Xp} xp!!!'
+
+DisabledCustomMobs: '&4CustomMobs are disabled!'
+
+# When player tries a command that needs him to be holding an item
+EmptyHand: '&4You are not holding any items!'
+
+# SetLootable command: When item is already lootable
+AlreadyLootable: '&4This item is already lootable!'
+
+# Enchant command errors
+SecondArgument: '&4The second argument must be a number!'
+InvalidEnchantment: '&4Invalid Enchantment!'
+
+GiveSpecificSpellError: '&4Invalid spell name!'
+GiveSpecificWeaponError: '&4Invalid file name!'
+
+# TreeAxe messages
+NoMoreFuel: '&cNo More AbilityFuel!'
+FullyCharged: '&aThis &2Tree&6Axe &ais fully charged!'
+
+# Player not found message
+PlayerNotFound: '&4This player is not online or he/she does not exist!'
+
+# *** Quest Messages *** #
+
+# {Name}: Quest's name
+QuestStart: 'Quest {Name} started!!!'
+
+# {Name}: Quest's name
+# {SecRemaining}: Remaining seconds to finish quest
+QuestRemainingSeconds: '&eSeconds remaining for quest {Name} &e: &c{SecRemaining}'
+
+# {Name}: Quest's name
+QuestTimeEnd: '{Name} &4time ended!!! You did not finish this quest ! :('
+
+# {Player}: Player's name
+# {Quest}: Quest's name
+FinishQuest: 'Congratulations {Player}, you have finished {Quest} quest !!!'
+
+# {Seconds}: Seconds to re-take the quest
+SecondsToReTakeQuest: 'You must wait {Seconds} seconds until can you take this quest again!'
+
+QuestTaken: 'You have already taken this quest!!!'
+
+# *** Weapons Messages *** #
+# {Seconds}: Seconds remaining to refresh the ability of a special weapon
+WaitForAbility: 'You must wait {Seconds} seconds until you can use again this ability!'
+
+# {MinLevel}: Minimum Level a Player must be to use the weapon
+CannotUseWeapon: '&4Sorry, you must be at least at level &6{MinLevel} &4to use this item!!!'
+
+# {Player}: Player's name
+# {Name}: Achievement name
+CompleteAchievement: '&e{Player} &ahas just completed the Achievement {Name}&a!'
+
+# *** Boss Messages *** #
+# {Player}: Player's name
+# {Boss}: Boss' name
+PlayerKillBoss: '&4{Player} &ehas killed a {Boss}&e!!!'
+
+# {Player}: Player's name
+# {Boss}: Boss' name
+# {Xp}: xp earned
+PlayerEarnBossXp: 'You have earned {Xp} xp for killing {Boss}!'
+
+# {Player}: Player's name
+SkeletonWizardMove1: '&2&lSkeletonWizardBoss &ehas performed &b&lThe Lightining Move!'
+SkeletonWizardMove2: '&2&lSkeletonWizardBoss &ehas performed &c&lThe Fire Move!'
+SkeletonWizardMove3: '&2&lSkeletonWizardBoss &ehas performed &2&lThe Poison Move!'
+ZombieMasterMove1: 'ZombieMasterBoss &eperformed the &2&lZombieSpawnMove &e!!!'
+ZombieMasterMove2: 'ZombieMasterBoss &eperformed the &5&lTeleportMove &e!!!'
+
+# *** Crystal Messages *** #
+# {Mana}: How much mana the player has earned
+EarnMana: '+ {Mana} mana'
+
+FullMana: '&4Your mana is full!'
+
+# {Xp}: How much xp the player has earned
+EarnXp: '+ {Xp} xp'
+
+# *** Spell Messages *** #
+SpellNotEnoughMana: '&4You do not have enough &1Mana &4to use this spell!!!'
+SpellFilledDrumsticks: 'You have all your drumsticks filled!'
+SpellNoMoreHP: 'You cannot have more than your maximum hp!'
+SpellAntiHungerActivate: 'Your AntiHunger defense has successfully enabled!!!'
+SpellAntiHungerEnabled: 'Your AntiHunger defense is already enabled!'
+SpellAntiPoisonActivate: 'Your AntiPoison defense has successfully enabled!!!'
+SpellAntiPoisonEnabled: 'Your AntiPoison defense is already enabled!'
+SpellAntiHungerDestroy: 'Your AntiHunger defense has been destroyed!'
+SpellAntiPoisonDestroy: 'Your AntiPoison defense has been destroyed!'
+
+# {Player}: Player's name
+PlayerHadAntiHunger: '{Player} had AntiHunger defense!'
+PlayerHadAntiPoison: '{Player} has AntiPoison defense!'
+
+# PickPocket Spell Messages
+UseOnPlayer: '&4You can use this spell only on players!'
+
+# {Suspect}: The player that the spell was used on to him
+EmptyPlayer: '&4Oups! It seems that &3{Suspect} &4does not have any items!'
+# {Item}: The item that was stolen from {Suspect}
+YouStole: '&aYou successfully stole &6{Item} &afrom &3{Suspect}!'
+
+# {Wizard}: The player that used the spell
+# {Item}: The item that the {Wizard} has stolen
+StolenFromYou: '&3{Wizard} &4stole &6{Item} &4from you!'
+
+# *** LevelUp Messages *** #
+# {OldLevel}: Player's old level
+# {NewLevel}: Player's new level
+# {HpIncreasement}: Player's hp increasement
+# {Gold}: How much gold the player will earn
+LevelUpMessages:
+- 'Congratulations, you leveled up!!! ({OldLevel} -> {NewLevel})'
+- 'Max HP increased by {HpIncreasement}'
+- '+ {Gold} gold'
+- '[Tip] Do not forget to go to Skills Shop to upgrade your skills!'
+
+# *** General Shop Messages *** #
+# When you successfully buy an item
+BoughtItem: 'You have successfully bought this item!'
+
+# When the shop refreshes (broadcast)
+ShopRefreshed: 'General Shop refreshed!'
+
+# When you try to open the shop and it is disabled
+ShopDisabled: '&4General Shop is disabled!'
+
+# *** Pack Messages *** #
+OpenBlockPack: 'From this BlockPack you got:'
+OpenItemPack: 'From this ItemPack you got:'
+OpenMixedPack: 'From this MixedPack you got:'
+
+# {Amount}: the amount of the item you got
+# {Material}: the material of the item you got
+ItemFromBlockPack: '- {Amount} {Material}'
+ItemFromItemPack: '- {Amount} {Material}'
+ItemFromMixedPack: '- {Amount} {Material}'
+
+# *** Custom Mob Messages *** #
+# {Mob}: mob's file name
+SetArmorsSuccess: '&aYou have successfully set &2{Mob} &aarmors!'
+SetDropsSuccess: '&aYou have successfully set &2{Mob} &adrops!'
+SetNameSuccess: '&aYou have successfully set &2{Mob} &aname!'
+SetLevelSuccess: '&aYou have successfully set &2{Mob} &alevel!'
+SetCanSpawnSuccess: '&aYou have successfully set &2{Mob} &adefault spawn ability!'
+FinishSuccess: '&aYou have successfully finished mob &2{Mob}'
+CreateSuccess: '&aYou have successfully created mob &2{Mob}'
+# {Ability}: ability name
+AddAbilitySuccess: '&aYou have successfully added ability &2{Ability} to mob {Mob}&a!!!'
+RemoveAbilitySuccess: '&aYou have successfully removed ability &2{Ability} from mob {Mob}&a!!!'
+
+MobNotFound: '&4Mob not found! Invalid id!'
+
+# {HP}: mob's HP
+SetHPSuccess: '&aSet mob HP to &c{HP} &asuccessfully!'
+
+# {Biome}: mob's biome
+AddBiomeSuccess: '&aAdded biome: &e{Biome}'
+RemoveBiomeSuccess: '&aRemoved biome: &e{Biome}'
+
+BiomeNotFound: '&4Biome not found!'
+
+# *** Classes Messages *** #
+# {Class}: Class' name
+RewardClassPoint: '&aYou were rewarded 1 Class Point because you leveled up the {Class} &aclass to maximum level!'
+
+# {Class}: Class' name
+# {OldLevel}: Class' level before level up
+# {NewLevel}: Class' level after level up
+LevelUpClass: '{Class} &aleveled up! &e({OldLevel} -> {NewLevel})'
+
+# {Class}: Class' name
+UnlockClass: '&aYou have successfully unlocked the {Class} &aclass!'
+
+NotEnoughClassPoints: '&4You do not have enough ClassPoints to unlock this class!'
+AlreadyEquippedClass: '&4You have already equipped this class!'
+EquipClass: '&aYou have successfully eqquiped this class!'
+
+MysteriousClassCost: '&4You do not have enough ClassPoints or gold or unlocked the Gladiator, Archer, Ninja, Wizard classes!'
+
+# {Class}: Class' name
+CannotHoldItem: '&4Only players in {Class} &4class can hold this item!'
+
+# {ClassPoints}: Player's remaining ClassPoints
+SendClassPoints: '&aYou have {ClassPoints} ClassPoints! Type: "/rc selectclass" to unlock a new class!'
+
+# *** Per World Support Messages *** #
+NotEnabledCommandInWorld: '&4You cannot perform this command in this world!'
+
+# *** Leaderboard Messages *** #
+# Level Leaderboard Title
+LevelTitle: 'Level Leaderboard'
+
+# Blocks Placed Leaderboard Title
+BPTitle: 'BlocksPlaced Leaderboard'
+
+# Blocks Broken Leaderboard Title
+BBTitle: 'BlocksBroken Leaderboard'
+
+# Basic Leaderboard line e.g. 1) YourName YourScore
+# {Ranking}: Player's ranking in leaderboard
+# {Player}: The player's name
+# {Score}: The player's score
+BasicLeaderboardLine: '{Ranking}) {Player} {Score}'
+
+# When there are not enough players on the scoreboard it will return the following text as the player's name
+NULL_Line: 'NULL'
+
+# Your ranking line
+# {Ranking}: Player's ranking
+RankingLine: 'Your ranking: {Ranking}'
+
+# The help message when a player types a wrong type of leaderboard
+WrongLeaderboard: 'There are three types of leaderboards (<level>/<blocksplaced>/<blocksbroken>)!'
+
+# *** RpgItems Lore *** #
+# Here you can change how the lore of RpgItems will show up on items e.g MinDamage: x ...
+# {MinDamage}: Minimum damage of the item
+# {MaxDamage}: Maximum damage of the item
+# {CriticalLuck}: The critical hit luck of the item
+# {Rarity}: The rarity of the item 
+# {MinLevel}: The minimum level that the player must be to use the item
+RpgItemLore:
+- '&7Damage: {MinDamage} - {MaxDamage}'
+- '&7Critical Hit: {CriticalLuck}%'
+- '&7Rarity: {Rarity}'
+- '&7You must be &6{MinLevel} &7level to use this item'
+
+# RpgArmor Section
+# {Defense}: Armor's defense
+# {Rarity}: Armor's rarity
+# {MinLevel}: The minimum level the player has to be to use the item
+RpgArmorLore:
+- '&7Armor: &9{Defense}'
+- '&7Rarity: {Rarity}'
+- '&7You have to be &e{MinLevel} &7level to use the item'
+
+# *** Treasure2 Messages *** #
+Treasures2:
+  # When the treasure typed does not exist
+  NotExist: '&4This treasure does not exist!'
+  # When making a new treasure and player types an already used id
+  SameId: '&4You have already created a treasure with the same ID!'
+  # Creating message
+  Creating: '&eCreating treasure...'
+  # When player tries to open an empty treasure
+  EmptyTreasure: '&4Sorry, but this is an empty treasure!'
+  # When player finds a treasure
+  # {Name}: Treasure's name
+  FoundTreasure: '&eYou found a(n) {Name}&e!'
+  # Creation completion message
+  CompleteCreation: '&aTreasure successfully created!'
+  # List Command
+  List:
+    # Title
+    Title: '&e=====[ &4Treasures List &e]====='
+    # Lines
+    # {Name}: Treasure's name
+    # {File}: Treasure's file name
+    Line: '&e- {Name} &e({File}&e) &a[Loaded]'

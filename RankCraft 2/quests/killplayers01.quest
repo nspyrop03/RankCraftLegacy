@@ -1,0 +1,5 @@
+Type: KillPlayers
+Name: TestKillPlayers
+SecondsToReTake: 180
+SecondsToComplete: 120
+KillPlayersAmount: 1

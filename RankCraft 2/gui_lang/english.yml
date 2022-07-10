@@ -1,0 +1,127 @@
+# ***** English Language File for GUI phrases ***** #
+# This file does not support Placeholders from PlaceHolderAPI !!!!!!
+
+# *** General *** #
+ItemPrevious: '&aPrevious'
+ItemNext: '&aNext'
+ItemClose: '&cClose'
+
+# *** BackpackShop *** #
+BpShopTitle: '&6Backpack Shop'
+UpgradeBpItem: '&aUpgrade Backpack'
+MaxBpItem: '&1Max Backpack Storage'
+
+# *** Stats GUI *** #
+StatsGuiTitle: 'Stats GUI'
+
+ItemXp: '&aXp: {Xp}' # {Xp}: the player's xp
+ItemLevel: '&6Level: {Lvl}' # {Level}: the player's level
+ItemRank: '&4Rank: {Rank}' # {Rank}: the player's rank
+ItemBlocksPlaced: '&aBlocksPlaced: {bp}' # {bp}: how many blocks has the player placed
+ItemBlocksBroken: '&cBlocksBroken: {bb}' # {bb}: how many blocks has the player broken
+
+# *** MobStats GUI *** #
+MobStatsGuiTitle: 'MobStats GUI'
+
+ItemMobHead: '&7{Mob}Kills: &c{Kills}' # {Mob}: Mob's name, {Kills}: how many {Mob}s has the player killed
+
+# *** Skills GUI *** #
+SkillsGuiTitle: 'Skills GUI'
+
+ItemUpgradeAttack:
+  Name: '&aUpgrade &cAttackSkill &afor &6{Gold} Gold' # {Gold}: Upgrade cost
+  Lore: '&7Your AttackSkill: &c{Lvl}' # {Lvl}: Player's AttackSkill level
+ItemUpgradeDefense:
+  Name: '&aUpgrade &eDefenseSkill &afor &6{Gold} Gold' # {Gold}: Upgrade cost
+  Lore: '&7Your DefenseSkill: &c{Lvl}' # {Lvl}: Player's DefenseSkill level
+ItemUpgradeMagic:
+  Name: '&aUpgrade &5MagicSkill &afor &6{Gold} Gold' # {Gold}: Upgrade cost
+  Lore: '&7Your MagicSkill: &c{Lvl}' # {Lvl}: Player's MagicSkill level
+ItemUpgradeMaxMana:
+  Name: '&aUpgrade &1MaxManaLevel &afor &6{Gold} Gold' # {Gold}: Upgrade cost
+  Lore: '&7Your MaxManaLevel: &c{Lvl}' # {Lvl}: Player's MaxMana level
+  
+# *** General Shop *** #
+GeneralShopTitle: 'General Shop'
+
+ItemExit: '&aExit ->'
+ItemGold: '&eYour Gold: {Gold}' # {Gold}: Player's gold
+ItemRefresh: '&eShop refreshes in &c{Seconds} &eseconds' # {Seconds}: Seconds to refresh shop
+ItemSold: '&cSold'
+
+# *** Packs Shop *** #
+PacksShopTitle: 'PacksShop'
+
+ItemBuyBronze: '&aBuy &6BronzePacks'
+ItemBuySilver: '&aBuy &7SilverPacks'
+ItemBuyGold: '&aBuy &eGoldPacks'
+
+BronzePacksShopTitle: 'Bronze Packs Shop'
+SilverPacksShopTitle: 'Silver Packs Shop'
+GoldPacksShopTitle: 'Gold Packs Shop'
+
+# *** Achievements GUI *** #
+AchievementsGuiTitle: 'Achievements GUI' 
+
+# Text when the achievement is completed
+AchievementCompleted: '&a&oCompleted!'
+
+# Kill Players achievement text
+# {Players}: The amount of players that must be killed
+AchievementKillPlayers: '&eKill &c{Players} &ePlayer(s).'
+
+# Kill Players achievement text
+# {Mobs}: The amount of mobs that must be killed
+# {Type}: The type of {Mobs}
+AchievementKillMobs: '&eKill &c{Mobs} &e{Type}.'
+
+# Place Blocks achievement text
+# {Blocks}: The amount of blocks that must be placed
+# {Type}: The type of {Blocks}
+AchievementPlaceBlocks: '&ePlace &c{Blocks} &e{Type}.'
+
+# Break Blocks achievement text
+# {Blocks}: The amount of blocks that must be broken
+# {Type}: The type of {Blocks}
+AchievementBreakBlocks: '&eBreak &c{Blocks} &e{Type}.'
+
+# Rewards lore
+# {Xp}: Reward's xp
+# {Gold}: Reward's gold
+AchievementRewardsLore:
+- '&7Rewards:'
+- '&7- &a{Xp} xp'
+- '&7- &6{Gold} gold'
+
+# * Special Achievements * #
+# Block Breaker Achievement
+# {Blocks}: How many blocks must be broken
+AchievementBlockBreaker: '&eBreak &c{Blocks} &eblocks.'
+
+# Craft ExcaliburSword Achievement
+AchievementExcalibur: '&eCraft the &1Excalibur Sword&e.'
+
+# Find Treasure Chests Achievement
+# {Treasure}: How many treasure chest must be found
+AchievementTreasure: '&eFind &c{Treasure} &eTreasure Chests.'
+
+# Mystery Master Achievemet
+AchievementMysterious: '&eUnlock &5Mysterious Class&e.'
+
+# Use spells Achievement
+# {Spells}: How many spells must be used
+AchievementUseSpells: '&eUse &c{Spells} &espells.'
+
+# Smith Achievement
+# {Items}: Amount of items the player have to craft
+AchievementSmith: '&eCraft &c{Items} &eiron tools or armors.'
+
+# *** Quests Menu *** #
+QuestsMenuTitle: 'Quests Menu'
+
+PlaceBlocksQuestsTitle: 'Place Blocks Quests'
+BreakBlocksQuestsTitle: 'Break Blocks Quests'
+KillPlayersQuestsTitle: 'Kill Players Quests'
+KillMobsQuestsTitle: 'Kill Mobs Quests'
+
+ItemBackToMenu: '&aBack to Quests Menu'

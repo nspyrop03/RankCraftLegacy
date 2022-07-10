@@ -1,0 +1,26 @@
+# Level 1 Reward File
+# The reward will be given to this level
+Level: 1
+# The reward
+Reward:
+  # Gold to give to player
+  Gold: 100.0
+  # Send player special title & subtitle
+  # Tip: you can use placeholders
+  SpecialTitle: 'Level Up!'
+  SpecialSubTitle: 'Congrats on reaching Level 1!'
+  # Commands that the server will execute
+  # Use {player} to refer to the player
+  CommandsToExecute:
+  - 'give {player} diamond_sword 1'
+  # RPG Weapons or Armors to give to player
+  # Structure: '<filename>:<amount>'
+  # Note: the filename should not contain an extension
+  # If you want to keep this empty:
+  # RpgItems: {}
+  RpgItems: 
+  - 'test01:1'
+  # Messages to send
+  # Tip: you can use placeholders
+  Messages:
+  - 'Congratulations on reaching Level 1! :)'

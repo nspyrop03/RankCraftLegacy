@@ -1,0 +1,80 @@
+# ***** Mobs Options ***** #
+# Here you can change the amount of Gold and Xp a player earns if he/she kills a mob
+Zombie:
+  Xp: 1.0
+  Gold: 1.5
+  DropGold: true
+  DropSpell: true
+Skeleton:
+  Xp: 3.0
+  Gold: 2.5
+  DropGold: true
+  DropSpell: true
+Creeper:
+  Xp: 3.0
+  Gold: 2.5
+  DropGold: true
+  DropSpell: true
+Enderman:
+  Xp: 10.0
+  Gold: 5.0
+  DropGold: true
+  DropSpell: true
+Cow:
+  Xp: 1.0
+  Gold: 0.5
+  DropGold: true
+  DropSpell: true
+Pig:
+  Xp: 1.0
+  Gold: 0.2
+  DropGold: true
+  DropSpell: true
+Horse:
+  Xp: 4.0
+  Gold: 1.0
+  DropGold: true
+  DropSpell: true
+Rabbit:
+  Xp: 2.0
+  Gold: 1.5
+  DropGold: true
+  DropSpell: true
+Villager:
+  Xp: -10.0
+  Gold: 0.0
+  DropGold: false
+  DropSpell: true
+Spider:
+  Xp: 2.0
+  Gold: 0.5
+  DropGold: true
+  DropSpell: true
+Slime:
+  Xp: 1.0
+  Gold: 0.1
+  DropGold: true
+  DropSpell: true
+Ghast:
+  Xp: 10.0
+  Gold: 20.0
+  DropGold: true
+  DropSpell: true
+Sheep:
+  Xp: 1.0
+  Gold: 0.1
+  DropGold: true
+  DropSpell: true
+Chicken:
+  Xp: 1.0
+  Gold: 0.3
+  DropGold: true
+  DropSpell: true
+
+# If you kill a player
+Player:
+  Xp: 10.0
+  Gold: 50.0
+  DropGold: true
+  DropSpell: true
+  

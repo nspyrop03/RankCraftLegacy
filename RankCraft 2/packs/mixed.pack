@@ -1,0 +1,55 @@
+# ***** Bronze Mixed Packs ***** #
+bronze_pack:
+- DIRT
+- APPLE
+- ARROW
+- BONE
+- CARROT
+- COOKIE
+- DEAD_BUSH
+- STONE
+- GRASS
+
+# The amount of items/blocks that you will earn
+# e.g: 3 STONE, 1 CARROT, 8 DEAD_BUSH, ... 
+bronze_pack_min_amount: 1
+bronze_pack_max_amount: 10
+
+# ***** Silver Mixed Packs ***** #
+silver_pack:
+- BONE
+- ARROW
+- COOKIE
+- CARROT
+- IRON_INGOT
+- EGG
+- FEATHER
+- LEATHER
+- EXP_BOTTLE
+- COBBLESTONE
+- GRASS
+- WOOD
+
+# The amount of items/blocks that you will earn
+# e.g: 13 EGG, 20 WOOD, 19 EXP_BOTTLE, ... 
+silver_pack_min_amount: 8
+silver_pack_max_amount: 23
+
+# ***** Gold Mixed Packs ***** #
+gold_pack:
+- IRON_INGOT
+- GOLD_INGOT
+- DIAMOND
+- LEATHER
+- EMERALD
+- ARROW
+- GOLDEN_APPLE
+- EXP_BOTTLE
+- DIAMOND_BLOCK
+- GOLD_ORE
+- GOLD_BLOCK
+
+# The amount of items/blocks that you will earn
+# e.g: 47 IRON_INGOT, 50 GOLD_BLOCK, 31 GOLDEN_APPLE, ... 
+gold_pack_min_amount: 30
+gold_pack_max_amount: 50

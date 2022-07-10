@@ -1,0 +1,16 @@
+# ***** Rank System ***** #
+# Here you can write your own Ranks!
+# Ranks Syntax:
+# - '<rank_name>:<level_required>'
+# NOTE: Be sure not to have 2 or more ranks with the same level because there will be an error
+# Tip: You can use color codes with the '&' symbol!
+# When the player joins for the first time he will take the first Rank
+# So make the first Level something like this: 'None:0'
+
+Ranks:
+- 'None:0'
+- '&eBegginer:5'
+- '&3Citizen &6I:10'
+- '&3Citizen &cII:20'
+- '&3Citizen &4III:35'
+- '&6Master:50'

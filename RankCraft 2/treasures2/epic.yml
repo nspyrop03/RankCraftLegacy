@@ -1,0 +1,236 @@
+Name: '&6EpicTreasure'
+Rarity: Epic
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+      PROTECTION_FALL: 10
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 20
+      DURABILITY: 20
+      PROTECTION_FALL: 10
+- ==: org.bukkit.inventory.ItemStack
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_DAMAGE: 5
+      DURABILITY: 20
+      ARROW_FIRE: 20
+      ARROW_INFINITE: 10
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLDEN_APPLE
+  amount: 16
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLDEN_APPLE
+  damage: 1
+  amount: 3
+- ==: org.bukkit.inventory.ItemStack
+  type: COOKED_BEEF
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  type: BREAD
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 32
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+  amount: 5
+- ==: org.bukkit.inventory.ItemStack
+  type: EXP_BOTTLE
+  amount: 32
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 50
+      DURABILITY: 50
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 50
+      DURABILITY: 50
+- ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  damage: 8261
+- ==: org.bukkit.inventory.ItemStack
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa71BombSpell \xa7fLvl.1"
+    lore:
+    - 'MaxPower: 3'
+    - 'Power: 1'
+    - "\xa7bThrows a snowball which creates"
+    - "\xa7b a level 1 explosion"
+    - "\xa79Mana Cost: 10.0"
+    - "\xa78Usage: Right_Click"
+- ==: org.bukkit.inventory.ItemStack
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa72FarmSpell \xa7fLvl.1"
+    lore:
+    - 'MaxPower: 3'
+    - 'Power: 1'
+    - "\xa7bSpawns 5 random farm animals"
+    - "\xa79Mana Cost: 20.0"
+    - "\xa78Usage: Right_Click"
+- ==: org.bukkit.inventory.ItemStack
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa74SpiderSpell \xa7fLvl.1"
+    lore:
+    - 'MaxPower: 5'
+    - 'Power: 1'
+    - "\xa7bThrows 5 web blocks"
+    - "\xa79Mana Cost: 10.0"
+    - "\xa78Usage: Right_Click"
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa76Epic Iron Sword"
+    lore:
+    - "\xa77Damage: 10.0 - 20.0"
+    - "\xa77Critical Hit: 100%"
+    - "\xa77Rarity: EPIC"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 10.0,20.0,100,0"
+    enchants:
+      DAMAGE_ALL: 30
+      FIRE_ASPECT: 10
+      DURABILITY: 50
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa76Epic Iron Axe"
+    lore:
+    - "\xa77Damage: 10.0 - 20.0"
+    - "\xa77Critical Hit: 100%"
+    - "\xa77Rarity: EPIC"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 10.0,20.0,100,0"
+    enchants:
+      DAMAGE_ALL: 30
+      DIG_SPEED: 50
+      DURABILITY: 50
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa76Epic Diamond Sword"
+    lore:
+    - "\xa77Damage: 10.0 - 20.0"
+    - "\xa77Critical Hit: 100%"
+    - "\xa77Rarity: EPIC"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 10.0,20.0,100,0"
+    enchants:
+      DAMAGE_ALL: 30
+      FIRE_ASPECT: 10
+      DURABILITY: 50
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa76Epic Diamond Axe"
+    lore:
+    - "\xa77Damage: 10.0 - 20.0"
+    - "\xa77Critical Hit: 100%"
+    - "\xa77Rarity: EPIC"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 10.0,20.0,100,0"
+    enchants:
+      DAMAGE_ALL: 30
+      DIG_SPEED: 50
+      DURABILITY: 50
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null

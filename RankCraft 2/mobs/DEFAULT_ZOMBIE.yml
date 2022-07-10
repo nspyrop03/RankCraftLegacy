@@ -1,0 +1,12 @@
+Name: '&4ZOMBIE'
+Type: zombie
+Level: 1
+Inventory: 
+  helmet: null	  
+  chestplate: null 
+  leggings: null	   
+  boots: null
+  hand: null
+Drops: {}
+DefaultSpawn: true
+Finished: true

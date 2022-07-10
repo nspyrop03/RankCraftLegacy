@@ -1,0 +1,48 @@
+# ***** Bronze Items Packs ***** #
+bronze_pack:
+- STICK
+- APPLE
+- ARROW
+- BONE
+- CARROT
+- COOKIE
+- DEAD_BUSH
+- EXP_BOTTLE
+
+# The amount of Items that you will earn
+# e.g: 3 STICK, 1 CARROT, 8 BONE, ... 
+bronze_pack_min_amount: 1
+bronze_pack_max_amount: 10
+
+# ***** Silver Items Packs ***** #
+silver_pack:
+- BONE
+- ARROW
+- COOKIE
+- CARROT
+- IRON_INGOT
+- EGG
+- FEATHER
+- LEATHER
+- EXP_BOTTLE
+
+# The amount of Items that you will earn
+# e.g: 13 ARROW, 20 LEATHER, 19 EXP_BOTTLE, ... 
+silver_pack_min_amount: 8
+silver_pack_max_amount: 23
+
+# ***** Gold Items Packs ***** #
+gold_pack:
+- IRON_INGOT
+- GOLD_INGOT
+- DIAMOND
+- LEATHER
+- EMERALD
+- ARROW
+- GOLDEN_APPLE
+- EXP_BOTTLE
+
+# The amount of Items that you will earn
+# e.g: 47 IRON_INGOT, 50 DIAMOND, 31 GOLDEN_APPLE, ... 
+gold_pack_min_amount: 30
+gold_pack_max_amount: 50

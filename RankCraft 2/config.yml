@@ -1,0 +1,519 @@
+#**************************************************#
+#                                                  #
+#     RankCraft - The Ultimate RPG Experience      #
+#                                                  #
+#**************************************************#
+
+# Made by Arionas_MC
+# This is the configuration file
+
+# ***** General Options ***** #
+# Show Quests, Achievements, Spells on startup
+StartupDebug: false
+
+# Show Scoreboard
+EnableScoreboard: true
+
+# When you hold an item it will be transformed to a RPG item (enable/disable)
+MakeAutoRpg: true
+
+# When you die, the items in your backpack won't be dropped
+KeepBackpack: true
+
+# If you have set 'UseVault' to true then, RankCraft will use its economy system
+# e.g. When you find Gold the money will go to Vault's economy
+UseVault: false
+
+# Language File
+# If you want to make your own file just copy-paste the pre-made one and change the messages, change the name and write it here
+# The new file must be inside 'lang' folder!
+LangFile: 'english.yml'
+
+# It's the same as above, but your new file must be inside 'gui_lang' folder!
+GuiLangFile: 'english.yml'
+
+# Language File for items!
+# It has to be inside 'item_lang' folder!!!
+ItemLangFile: 'english.yml'
+
+# Here you can enable/disable CustomMobs or Pre-Made mobs
+# !!! DO NOT ENABLE BOTH OF THEM !!!
+# But you can disable both of them if you want Minecraft's default mobs
+EnableCustomMobs: true
+EnablePreMadeMobs: false
+
+# Send a message at console when RankCraft is outdated every 20 minutes
+SendOutdateMessage: true
+
+# Enable RankCraft's Damage system
+EnableDamageSystem: true
+
+# Enable RankCraft's Health system
+EnableHPSystem: true
+
+# Disable RankCraft's classic Heart System(1 heart = 20 HP)
+DisableClassicHearts: false
+
+# Starting HP
+StartingHP: 20
+
+# 1 Minecraft heart = FullHeartHP HP e.g 1 heart = 20 HP, 2 hearts = 40 HP
+FullHeartHP: 20
+
+# Auto pickup gold (the player must have the 'rankcraft.gold.autopickup' permission to auto pickup gold)
+AutoPickupGold: true
+
+# The name displayed on the currency item
+CurrencyName: '&eGold'
+
+# The type of the currency item
+CurrencyItemType: GOLD_NUGGET
+
+# Currency item's lore
+# {Amount}: how many currency units the player will earn when he right-clicks the item
+CurrencyItemLore:
+- '&7Right-Click to earn &6{Amount} gold'
+
+
+# ***** Hard Mode Options ***** #
+# Reset your xp on death
+# That means that your level and rank will be reset
+ResetXpOnDeath: false
+
+# Reset your skills on death
+ResetSkillsOnDeath: false
+
+# Reset HP on death
+# HP goes back to 'StartingHP'
+ResetHpOnDeath: false
+
+# Reset gold on death
+ResetGoldOnDeath: false
+
+# ***** Per World Support ***** #
+
+# Enable/disable the 'EnableOnWorlds' list
+# If the following field is set to 'false', RankCraft will be enabled on all the Worlds
+EnableWorldList: false
+
+# On these worlds RankCraft will be enabled (added after user request)
+EnableOnWorlds:
+- world
+- world_nether
+- world_the_end
+
+# ***** DamageSystem Options ***** #
+# Damage = WeaponDamage + SharpnessDamage + CriticalHitDamage + AttackSkillDamage + StrengthDamage - Defense 
+
+# WeaponDamage: a random number between Weapon's min-damage and max-damage
+
+# SharpnessDamage: weapon's sharpness level multiplied by SharpnessFactor
+SharpnessFactor: 0.5 
+
+# CriticalHitDamage: a random percentage of WeaponDamage between MinCriticalHit and MaxCriticalHit
+MinCriticalHit: 40.0
+MaxCriticalHit: 60.0
+
+# AttackSkillDamage: attacker's AttackSkill multiplied by AttackSkillFactor
+AttackSkillFactor: 0.4
+
+# StrengthDamage: attacker's strength potion effect's level multiplied by StrengthFactor
+StrengthFactor: 3.0
+
+# Defense = Defender's Armor Defense + Defender's DefenseSkill multiplied by DefenseSkillFactor + Each armor piece's protection level multiplied by ProtectionFactor
+DefenseSkillFactor: 0.3
+ProtectionFactor: 0.25
+
+# Display Damage above entity
+DisplayDamage: true
+
+# ***** Treasure2 Options ***** #
+Treasure2PerBlocks: 100
+
+# Common treasures found per 'Treasure2PerBlocks'
+CommonChances: 15
+
+# Rare treasures found per 'Treasure2PerBlocks'
+RareChances: 4
+
+# Epic treasures found per 'Treasure2PerBlocks'
+EpicChances: 1
+
+# Disable/Enable the message sent when player finds a treasure
+Treasure2FoundMessage: true
+
+# Enable / Disable treasure chests
+EnableTreasureChest: true
+
+# A list of blocks which do not throw treasures
+NoTreasureMaterials:
+- TALL_GRASS
+
+# ***** Xp Options ***** #
+# If the block you break or place is inside this list you won't earn xp
+NoXpMaterials:
+- TORCH
+- TALL_GRASS
+
+# The Xp you earn if you break a block
+XpOnBreak: 0.5
+
+# The Xp you earn if you place a block
+XpOnPlace: 0.8
+
+# Save 'BlocksToSave' blocks per player so as when he destroys those last blocks he won't earn xp
+# It's to avoid players placing and breaking the same block to earn lots of xp
+SaveBlocks: true
+BlocksToSave: 10
+
+# The xp you will earn if you break a specific block
+# e.g 'GRASS:0.1' -> if you break a grass block you will earn 0.1 xp
+SpecialBreak:
+- 'GRASS:0.1'
+- 'STONE:0.2'
+- 'DIAMOND_ORE:5.0'
+
+# The xp you will earn if you place a specific block
+# e.g 'DIRT:0.01' -> if you place a grass block you will earn 0.01 xp
+SpecialPlace:
+- 'DIRT:0.01'
+
+# ***** Pack Options ***** #
+##### Block Packs #####
+
+# How much gold do the packs cost
+BronzeBlockPackCost: 100.0
+SilverBlockPackCost: 250.0
+GoldBlockPackCost: 500.0
+
+BronzeItemPackCost: 100.0
+SilverItemPackCost: 250.0
+GoldItemPackCost: 500.0
+
+BronzeMixedPackCost: 250.0
+SilverMixedPackCost: 350.0
+GoldMixedPackCost: 600.0
+
+# ***** LevelUp Options ***** #
+LevelUp:
+  # Gold the player will get when he/she levels up
+  Gold: 150.0
+  # How much HP will be added to the maximum HP of the player
+  # e.g. Player's Max HP: 20 when he levels up Player's Max HP + Health
+  Health: 0.2
+
+# ***** General Shop Options ***** #
+# Every how many seconds the shop refreshes
+# e.g. 120 seconds = 2 minutes
+ShopRefresh: 120
+
+# Enable/Disable GeneralShop
+EnableShop: true
+
+# ***** Custom Mobs Options ***** #
+# If custom mobs can drop rpg items (= the items that you have made in 'weapons' folder)
+CanDropRpgItem: true
+# For example if a custom mob is level 10 then it can drop rpg items from level 10-5 to level 10+5
+DropRpgItemRadius: 5
+# Chances % to drop a rpg item
+DropRpgItemChances: 20
+# If player is inside 'PlayerRange' blocks range then the spawner will start spawning
+PlayerRange: 5
+# Display name all the time
+AlwaysDisplayName: true
+
+# Enable/Disable mob spawner's search of mobs in the area to decide whether or not it will spawn a mob
+SpawnerSearch: true
+# The spawner will search for mobs in a 'SearchRange' range of blocks 
+SearchRange: 10
+# If there are more than 'SearchAmount' mobs in the area, the spawner will not spawn anything
+SearchAmount: 10
+# Criteria of spawner's search
+# Valid options:
+# - 'All' -> Search for every type of mob
+# - 'SameType' -> Search for mobs with the same type with spawner's mob (e.g a spawner which spawns a custom zombie will search for zombies)
+# - 'SameMob' -> Search for the same mob with the spawner's one (e.g a spawner which spawns "CustomZombie1" mob will search only for "CustomZombie1" zombies
+SearchCriteria: 'All'
+
+
+# ***** Backpack Upgrade Options ***** #
+# Here, you can configure the cost of every backpack's upgrade
+BackpackUpgradeCost:
+  lines2: 200.0
+  lines3: 400.0
+  lines4: 600.0
+  lines5: 800.0
+  lines6: 1000.0
+  
+# ***** Class Options ***** #
+# The gold cost of Mysterious Class
+MysteriousClassGoldCost: 5000.0
+
+# The block you must right click to make your weapon a ClassItem
+# Here is a list with all the materials. Please use only block materials, otherwise the plugin will crash.
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ClassItemBlock: DIAMOND_BLOCK
+
+# Enable/Disable effect's particles
+DisplayClassParticles: true
+
+# ***** Actionbar Options ***** #
+# Enable / Disable the Actionbar
+EnableActionbar: true
+
+# Actionbar's text
+# You can use PlaceholderAPI placeholders
+ActionbarText: '&4%rankcraft_player_hp%/%rankcraft_player_max_hp% &e[%rankcraft_player_hpbar%&e] &9%rankcraft_player_mana%/%rankcraft_player_max_mana% &e[%rankcraft_player_manabar%&e]'
+
+# ***** Achievement Options ***** #
+# Xp and gold earned by completing Achievements
+# Syntax: '<xp>,<gold>'
+AchievementRewards:
+  KillZombies1: '20,10'
+  KillZombies2: '100,50'
+  KillZombies3: '250, 100'
+  LuckyMan1: '50,50'
+  LuckyMan2: '55,60'
+  LuckyMan3: '60,70'
+  LuckyMan4: '65,80'
+  Wizard1: '20,50'
+  Wizard2: '30,65'
+  Wizard3: '40,80'
+  Wizard4: '50,100'
+  StoneDestroyer1: '50,50'
+  StoneDestroyer2: '70,100'
+  StoneDestroyer3: '90,150'
+  StoneDestroyer4: '130,200'
+  StoneDestroyer5: '200,300'
+  IronMiner1: '50,50'
+  IronMiner2: '100,100'
+  IronMiner3: '150,150'
+  IronMiner4: '200,200'
+  IronMiner5: '300,300'
+  BlockBreaker1: '50,50'
+  BlockBreaker2: '100,70'
+  BlockBreaker3: '150,90'
+  BlockBreaker4: '200,110'
+  BlockBreaker5: '250,150'
+  SkeletonKiller1: '20,10'
+  SkeletonKiller2: '35,35'
+  SkeletonKiller3: '50,50'
+  SpiderKiller1: '20,10'
+  SpiderKiller2: '35,35'
+  SpiderKiller3: '50,50'
+  EndermanKiller1: '15,100'
+  EndermanKiller2: '50,350'
+  EndermanKiller3: '100,500'
+  CreeperKiller1: '10,20'
+  CreeperKiller2: '75,100'
+  CreeperKiller3: '150,350'
+  ExcaliburMaster1: '100,200'
+  MysteryMaster1: '2000,1000'
+  Smith1: '100,100'
+  Smith2: '125,150'
+  Smith3: '150,200'
+  
+# ***** Default Weapon/Armor Options ***** #
+# Weapons that will get RPG stats (remove the '#' comment-symbol from netherite weapons to enable them)
+WeaponsToRPG:
+- WOODEN_AXE
+- GOLDEN_AXE
+- STONE_AXE
+- IRON_AXE
+- DIAMOND_AXE
+#- NETHERITE_AXE
+- WOODEN_SWORD
+- GOLDEN_SWORD
+- STONE_SWORD
+- IRON_SWORD
+- DIAMOND_SWORD
+#- NETHERITE_SWORD
+
+
+# Change the required level and min/max damage of the default minecraft weapons(swords/axes, they must be included in 'WeaponsToRPG' list above)
+DefaultWeapons:
+  WOODEN_AXE:
+    MinLevel: 0
+    MinDamage: 1.0
+    MaxDamage: 1.1
+  GOLDEN_AXE:
+    MinLevel: 0
+    MinDamage: 1.2
+    MaxDamage: 1.3
+  STONE_AXE:
+    MinLevel: 1
+    MinDamage: 1.3
+    MaxDamage: 1.5
+  IRON_AXE:
+    MinLevel: 5
+    MinDamage: 1.5
+    MaxDamage: 1.7
+  DIAMOND_AXE:
+    MinLevel: 10
+    MinDamage: 1.8
+    MaxDamage: 2.0
+  WOODEN_SWORD:
+    MinLevel: 0
+    MinDamage: 1.1
+    MaxDamage: 1.3
+  GOLDEN_SWORD:
+    MinLevel: 0
+    MinDamage: 1.4
+    MaxDamage: 1.6
+  STONE_SWORD:
+    MinLevel: 1
+    MinDamage: 1.7
+    MaxDamage: 1.9
+  IRON_SWORD:
+    MinLevel: 5
+    MinDamage: 2.1
+    MaxDamage: 2.5
+  DIAMOND_SWORD:
+    MinLevel: 10
+    MinDamage: 2.6
+    MaxDamage: 3.0
+#  NETHERITE_AXE:
+#    MinLevel: 15
+#    MinDamage: 3.0
+#    MaxDamage: 4.5
+#  NETHERITE_SWORD:
+#    MinLevel: 15
+#    MinDamage: 4.0
+#    MaxDamage: 6.0
+
+
+# Armor that will get RPG stats
+ArmorsToRPG:
+- LEATHER_HELMET
+- LEATHER_CHESTPLATE
+- LEATHER_LEGGINGS
+- LEATHER_BOOTS
+- GOLDEN_HELMET
+- GOLDEN_CHESTPLATE
+- GOLDEN_LEGGINGS
+- GOLDEN_BOOTS
+- CHAINMAIL_HELMET
+- CHAINMAIL_CHESTPLATE
+- CHAINMAIL_LEGGINGS
+- CHAINMAIL_BOOTS
+- IRON_HELMET
+- IRON_CHESTPLATE
+- IRON_LEGGINGS
+- IRON_BOOTS
+- DIAMOND_HELMET
+- DIAMOND_CHESTPLATE
+- DIAMOND_LEGGINGS
+- DIAMOND_BOOTS
+#- NETHERITE_HELMET
+#- NETHERITE_CHESTPLATE
+#- NETHERITE_LEGGINGS
+#- NETHERITE_BOOTS
+
+
+# Modify the required level and armor of the default minecraft armor pieces they must be included in 'ArmorsToRPG' list above)
+DefaultArmors:
+  LEATHER_HELMET:
+    MinLevel: 0
+    Armor: 0.5
+  LEATHER_CHESTPLATE:
+    MinLevel: 0
+    Armor: 1.5
+  LEATHER_LEGGINGS:
+    MinLevel: 0
+    Armor: 1.0
+  LEATHER_BOOTS:
+    MinLevel: 0
+    Armor: 0.5
+  GOLDEN_HELMET:
+    MinLevel: 5
+    Armor: 1.0
+  GOLDEN_CHESTPLATE:
+    MinLevel: 5
+    Armor: 2.5
+  GOLDEN_LEGGINGS:
+    MinLevel: 5
+    Armor: 1.5
+  GOLDEN_BOOTS:
+    MinLevel: 5
+    Armor: 0.6
+  CHAINMAIL_HELMET:
+    MinLevel: 5
+    Armor: 1.2
+  CHAINMAIL_CHESTPLATE:
+    MinLevel: 5
+    Armor: 2.7
+  CHAINMAIL_LEGGINGS:
+    MinLevel: 5
+    Armor: 2.0
+  CHAINMAIL_BOOTS:
+    MinLevel: 5
+    Armor: 0.8
+  IRON_HELMET:
+    MinLevel: 5
+    Armor: 1.3
+  IRON_CHESTPLATE:
+    MinLevel: 5
+    Armor: 3.0
+  IRON_LEGGINGS:
+    MinLevel: 5
+    Armor: 2.5
+  IRON_BOOTS:
+    MinLevel: 5
+    Armor: 1.0
+  DIAMOND_HELMET:
+    MinLevel: 10
+    Armor: 1.5
+  DIAMOND_CHESTPLATE:
+    MinLevel: 10
+    Armor: 4.0
+  DIAMOND_LEGGINGS:
+    MinLevel: 10
+    Armor: 3.0
+  DIAMOND_BOOTS:
+    MinLevel: 10
+    Armor: 1.5
+#  NETHERITE_HELMET:
+#    MinLevel: 15
+#    Armor: 2.5
+#  NETHERITE_CHESTPLATE:
+#    MinLevel: 15
+#    Armor: 6.0
+#  NETHERITE_LEGGINGS:
+#    MinLevel: 15
+#    Armor: 4.5
+#  NETHERITE_BOOTS:
+#    MinLevel: 15
+#    Armor: 2.0
+
+    
+# ***** Spell Options ***** #
+# Option to disable all the spells
+# (+) If this is set to true, mobs won't drop any spells by default
+DisableSpells: false
+
+# List of enabled spells 
+# Note: if 'DisableSpells' is set to true this list will not be taken into consideration
+EnabledSpells:
+  AntiHungerSpell: true
+  AntiPoisonSpell: true
+  BombSpell: true
+  DeathTouchSpell: true
+  EarthTameSpell: true
+  FarmSpell: true
+  FeedSpell: true
+  HealSpell: true
+  HeartsSpell: true
+  HungerSpell: true
+  LightningSpell: true
+  PickPocketSpell: true
+  PoisonSpell: true
+  ShadowSpell: true
+  SpiderSpell: true
+  
+# Disable/Enable feature to remove cobweb blocks from SpiderSpell after 'RemoveWebSeconds' seconds
+RemoveWeb: true
+RemoveWebSeconds: 5
+
+# Max HP increment from Hearts Spell
+HeartsMaxHP: 20.0
+

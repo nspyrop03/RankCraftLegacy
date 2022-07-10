@@ -1,0 +1,257 @@
+Name: '&aCommonTreasure'
+Rarity: Common
+items:
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+      ARROW_FIRE: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+  amount: 32
+- ==: org.bukkit.inventory.ItemStack
+  type: APPLE
+  amount: 32
+- ==: org.bukkit.inventory.ItemStack
+  type: FISHING_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_SPADE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 5
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_SPADE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 5
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_SPADE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 5
+      DURABILITY: 2
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7aCommon Wooden Sword"
+    lore:
+    - "\xa77Damage: 1.0 - 5.0"
+    - "\xa77Critical Hit: 50%"
+    - "\xa77Rarity: COMMON"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 1.0,5.0,50,0"
+    enchants:
+      DAMAGE_ALL: 2
+      DURABILITY: 2
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7aCommon Stone Sword"
+    lore:
+    - "\xa77Damage: 1.0 - 5.0"
+    - "\xa77Critical Hit: 50%"
+    - "\xa77Rarity: COMMON"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 1.0,5.0,50,0"
+    enchants:
+      DAMAGE_ALL: 2
+      DURABILITY: 2
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7aCommon Golden Sword"
+    lore:
+    - "\xa77Damage: 1.0 - 5.0"
+    - "\xa77Critical Hit: 50%"
+    - "\xa77Rarity: COMMON"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 1.0,5.0,50,0"
+    enchants:
+      DAMAGE_ALL: 2
+      DURABILITY: 2
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7aCommon Golden Axe"
+    lore:
+    - "\xa77Damage: 1.0 - 5.0"
+    - "\xa77Critical Hit: 50%"
+    - "\xa77Rarity: COMMON"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 1.0,5.0,50,0"
+    enchants:
+      DAMAGE_ALL: 2
+      DIG_SPEED: 5
+      DURABILITY: 2
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7aCommon Stone Axe"
+    lore:
+    - "\xa77Damage: 1.0 - 5.0"
+    - "\xa77Critical Hit: 50%"
+    - "\xa77Rarity: COMMON"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 1.0,5.0,50,0"
+    enchants:
+      DAMAGE_ALL: 2
+      DIG_SPEED: 5
+      DURABILITY: 2
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7aCommon Wooden Axe"
+    lore:
+    - "\xa77Damage: 1.0 - 5.0"
+    - "\xa77Critical Hit: 50%"
+    - "\xa77Rarity: COMMON"
+    - "\xa77You must be \xa760 \xa77level to use this item"
+    - ' '
+    - "\xa78Stats: 1.0,5.0,50,0"
+    enchants:
+      DAMAGE_ALL: 2
+      DIG_SPEED: 5
+      DURABILITY: 2
+    ItemFlags: !!set
+      HIDE_ATTRIBUTES: null

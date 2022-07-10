@@ -1,0 +1,41 @@
+# ***** RankCraft Placeholders ***** #
+
+You must have installed the PlaceholderAPI for the below placeholders
+
+%rankcraft_player_xp%             -> Player's xp
+%rankcraft_player_xptolevelup%    -> How much xp the player must reach to level up
+%rankcraft_player_level%          -> Player's level
+%rankcraft_player_rank%           -> Player's rank
+%rankcraft_player_gold%           -> Player's gold
+%rankcraft_player_mana%           -> Player's mana
+%rankcraft_player_max_mana%       -> Player's max mana
+%rankcraft_player_blocksbroken%   -> How many blocks the player has broken
+%rankcraft_player_blocksplaced%   -> How many blocks the player has placed
+%rankcraft_player_hp%             -> Player's health
+%rankcraft_player_max_hp%         -> Player's max health
+%rankcraft_player_hpbar%          -> Player's health bar
+%rankcraft_player_class%          -> Player's current class
+%rankcraft_player_class_level%    -> Player's current class' level
+%rankcraft_player_class_xp%    	  -> Player's current class' xp
+%rankcraft_player_manabar%        -> Player's mana bar
+
+
+You must have installed the MVdWPlaceholderAPI for the below placeholders
+NOTE: MVdWPlaceholderAPI placeholders are not supported by RankCraft's scoreboard!
+
+{rankcraft_player_xp}             -> Player's xp
+{rankcraft_player_xptolevelup}    -> How much xp the player must reach to level up
+{rankcraft_player_level}          -> Player's level
+{rankcraft_player_rank}           -> Player's rank
+{rankcraft_player_gold}           -> Player's gold
+{rankcraft_player_mana}           -> Player's mana
+{rankcraft_player_max_mana}       -> Player's max mana
+{rankcraft_player_blocksbroken}   -> How many blocks the player has broken
+{rankcraft_player_blocksplaced}   -> How many blocks the player has placed
+{rankcraft_player_hp}             -> Player's health
+{rankcraft_player_max_hp}         -> Player's max health
+{rankcraft_player_hpbar}          -> Player's health bar
+{rankcraft_player_class}          -> Player's current class
+{rankcraft_player_class_level}    -> Player's current class' level
+{rankcraft_player_class_xp}    	  -> Player's current class' xp
+{rankcraft_player_manabar}        -> Player's mana bar

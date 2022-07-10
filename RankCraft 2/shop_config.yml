@@ -1,0 +1,71 @@
+# Welcome to General Shop's configuration file
+# Here you can customize all the items that can be found in this shop
+# All you have to do is to add the item you want in the "Items" list below
+# But... how do I add the item I want?
+# It's your lucky day because I am here to help you! :)
+#
+# In case you want to add a simple Minecraft item you have to add the item with the following form:
+# - 'MC,<item-id>,<min-amount>,<max-amount>,<min-cost>,<max-cost>'
+#
+# In case you want to add a RankCraft crystal use the following form
+# - 'crystal,<xp/mana>,<small/medium/large>,<min-cost>,<max-cost>'
+#
+# In case you want to add a RankCraft spell use the following form
+# - 'spell,<spell-name>,<spell-level>,<min-cost>,<max-cost>
+# Note: The <spell-name> is the same as the game without color codes e.g if you want to add
+#       the SpiderSpell Lvl.2, all you have to do is to write the following
+#       - 'spell,spiderspell,2,200.0,300.0'
+# Note 2: You can find a list of all the spells on RankCraft official website!
+#
+# In case you want to add a RankCraft weapon from the weapons folder use the following form:
+# - 'RC,<filename without extension>,<true/false>,<min-cost>,<max-cost>,<name-list>
+# Ohhh, there are a lot of parameters there! Can you explain them? Of course!
+# First parameter: The item file's name without the extension e.g: test01
+# Second parameter: If it's true, the last parameter will be skipped and the item
+#                   will be available exactly with the details of its file
+#                   If it's false, the min-damage, max-damage and the enchantments will be 
+#                   softly randomized and it will be named with a name from the last list
+#
+# In case you want ot add a RankCraft SpellCase use the following form
+# - 'spellcase,<small/medium/large>,<min-cost>,<max-cost>'
+#
+# Wait, what's a name list?
+# A name list is a list full of possible names for your items. You can create unlimited 
+# such lists like this:
+# NewSwordNames:
+# - '&1Skull&6Sword'
+# - '&5Bone&6Sword'
+ 
+Items:
+- 'MC,BREAD,10,60,10.0,100.0'
+- 'MC,CARROT,1,64,10.0,50.0'
+- 'MC,COOKED_BEEF,1,64,30.0,150.0'
+- 'MC,COOKED_SALMON,1,64,50.0,200.0'
+- 'MC,COAL,1,1,10.0,50.0'
+- 'crystal,xp,small,50.0,70.0'
+- 'crystal,xp,medium,100.0,150.0'
+- 'crystal,xp,large,200.0,300.0'
+- 'crystal,mana,small,25.0,35.0'
+- 'crystal,mana,medium,60.0,80.0'
+- 'crystal,mana,large,100.0,200.0'
+- 'spell,earthtamespell,1,75.0,100.0'
+- 'spell,earthtamespell,2,125.0,200.0'
+- 'spell,earthtamespell,3,210,250.0'
+- 'spell,feedspell,1,30.0,50.0'
+- 'spell,feedspell,2,65.0,80.0'
+- 'spell,feedspell,3,100.0,130.0'
+- 'spell,healspell,1,75.0,100.0'
+- 'spell,healspell,2,130.0,180.0'
+- 'spell,healspell,3,200.0,250.0'
+- 'spell,bombspell,1,50.0,75.0'
+- 'spell,bombspell,2,80.0,100.0'
+- 'spell,bombspell,3,130.0,200.0'
+- 'RC,test01,false,50.0,200.0,Names1'
+- 'spellcase,small,50.0,65.0'
+- 'spellcase,medium,80.0,100.0'
+- 'spellcase,large,125.0,150.0'
+
+Names1:
+- '&1UNKNOWN'
+- '&6Master Dagger'
+- '&5Ruby Knife'

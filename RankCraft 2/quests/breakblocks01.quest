@@ -1,0 +1,6 @@
+Type: BreakBlocks
+Name: TestBreakBlocks
+SecondsToReTake: 100
+SecondsToComplete: 20
+BreakBlockType: GRASS
+BreakBlocksAmount: 5

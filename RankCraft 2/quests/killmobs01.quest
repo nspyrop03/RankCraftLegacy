@@ -1,0 +1,6 @@
+Type: KillMobs
+Name: TestKillMobs
+SecondsToReTake: 200
+SecondsToComplete: 120
+KillMobType: ZOMBIE
+KillMobsAmount: 2

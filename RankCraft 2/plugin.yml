@@ -1,0 +1,126 @@
+name: RankCraft
+version: 2.1.9
+api-version: 1.13
+main: me.amc.rankcraft.MainCore
+softdepends: [PlaceholderAPI, Vault, WorldGuard, WorldEdit, MVdWPlaceholderAPI, GriefPrevention]
+commands:
+  rankcraft:
+   description: Main RankCraft command
+   aliases: [rc]
+  rankcraft give treasure <normal/super/ultra> <amount>:
+    description: Gives you treasures
+  rankcraft opengui stats:
+    description: Opens Stats GUI
+  rankcraft opengui mobstats:
+    description: Opens MobStats GUI
+  rankcraft give gold <amount>:
+    descrption: Gives you the specific gold amount
+  rankcraft give xpcrystal <small/medium/large> <amount>:
+    description: Gives you XpCrystals
+  rankcraft give manacrystal <small/medium/large> <amount>:
+    description: Gives you ManaCrystals
+  rankcraft give yamlweapons:
+    description: Gives you the weapons from the files
+  rankcraft give blockpack <bronze/silver/gold> <amount>:
+    description: Gives you block packs
+  rankcraft give itempack <bronze/silver/gold> <amount>:
+    description: Gives you item packs
+  rankcraft give mixedpack <bronze/silver/gold> <amount>:
+    description: Gives you mixed packs
+  rankcraft opengui packshop:
+    description: Opens the PackShop
+  rankcraft give spells:
+    description: Gives you all the spells
+  rankcraft opengui skills:
+    description: Opens Skills GUI
+  rankcraft opengui quests:
+    description: Opens Quests GUI
+  rankcraft setreward <quest> <xp> <gold> <true/false>:
+    description: Sets reward for a quest. The last parameter is if adds the item you hold
+  rankcraft opengui achievements:
+    description: Opens the Achievements GUI
+  rankcraft give skeletonwizard egg:
+    description: Gives you the SkeletonWizard's egg
+  rankcraft give zombiewarrior egg:
+    description: Gives you the ZombieWarrior's egg
+  rankcraft give zombiemaster egg:
+    description: Gives you the ZombieMaster's egg
+  rankcraft backpack:
+    description: Opens your backpack
+  rankcraft opengui backpackshop:
+    description: Opens the BackpackShop GUI
+  rankcraft opengui shop:
+    description: Opens the General Shop
+  rankcraft give mobspawner <mob> <sec> <range>:
+    description: Gives you a custom mob spawner
+  rankcraft spawn <mob> <times>:
+    description: Spawns <times> times the custom mob <mob>
+  rankcraft mob create <fileName> <zombie/skeleton>:
+    description: Creates a new custom mob
+  rankcraft mob setArmors <mob>:
+    description: Sets the mob's armors to the armors you wear
+  rankcraft mob setDrops <mob>:
+    description: Sets the mob's drops to your inventory items
+  rankcraft mob setLevel <mob> <level>:
+    description: Sets the mob's level
+  rankcraft mob finish <mob>:
+    description: Finishes mob's creation
+  rankcraft mob setName <mob> <name>:
+    description: Sets the name of the mob
+  rankcraft mob setCanSpawn <mob> <true/false>:
+    description: Sets whether the mob can spawn by default
+  rankcraft opengui classes:
+    description: Opens the RpgClasses GUI
+  rankcraft opengui selectclass:
+    description: Opens the Select RpgClass GUI
+  rankcraft leaderboard level:
+    description: Opens the level leaderboard
+  rankcraft leaderboard blocksbroken:
+    description: Opens the blocks broken leaderboard
+  rankcraft leaderboard blocksplaced:
+    description: Opens the blocks placed leaderboard
+  rankcraft help <page>:
+    description: Help Command
+  rankcraft enchant <enchantment> <power>:
+    description: Enchant command
+  rankcraft setlootable:
+    description: Makes the item that you are holding lootable
+  rankcraft treasure make <name> <id> <common/rare/epic>:
+    description: Opens the Treasure Maker
+  rankcraft treasure edit <id>:
+    description: Opens the Treasure Editor
+  rankcraft treasure list:
+    description: A list of all the treasures
+  rankcraft give treasure2 <id> <amount>:
+    description: Gives you the specific treasures
+  rankcraft give spell <spell-name> <spell-level> <amount>:
+    description: Gives you the specific spell
+  rankcraft give yamlweapon <file-name>:
+    description: Gives you the specific yamlweapon
+  rankcraft selectclass <player>:
+    description: Opens SelectClass GUI to player
+  rankcraft selectclass <class-name>:
+    description: Selects a RpgClass
+  rankcraft toggle scoreboard:
+    description: toggle scoreboard
+  rankcraft toggle scoreboard <player>:
+    description: toggle scoreboard for <player>
+  rankcraft item create <id> <name> <minLevel>:
+    description: Opens Item Creator
+  rankcraft item edit <id>:
+    description: Opens Item Creator to edit item
+  rankcraft item edit <id> <stage>:
+    description: Opens Item Creator on specific stage
+  rankcraft give yamlarmors:
+    description: Gives you all armors from files
+  rankcraft give yamlarmor <filename>:
+    description: Gives you specific armor from file  
+  rankcraft give gold <amount> <player>:
+    description: Gives <amount> of gold to <player>
+  rankcraft give spell <spell-name> <level> <amount> <player>:
+    description: Gives specific spell to player
+  rankcraft give classpoints <points>:
+    description: Gives you <points> ClassPoints
+  rankcraft give classpoints <points> <player>:
+    description: Gives <points> ClassPoints to <player>
+  

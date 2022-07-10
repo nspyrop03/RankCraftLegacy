@@ -1,0 +1,6 @@
+Type: PlaceBlocks
+Name: TestPlaceBlocks
+SecondsToReTake: 120
+SecondsToComplete: 60
+PlaceBlockType: STONE
+PlaceBlocksAmount: 10

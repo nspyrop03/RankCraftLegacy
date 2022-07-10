@@ -1,0 +1,82 @@
+# ***** English Language File for Items ***** #
+# NOTE: This file does not support Placeholders from PlaceHolderAPI!!!
+
+# *** Spells *** #
+# General Spells lore
+# {Level}: Spell's level
+# {MaxLevel}: Spell's max level
+# {ManaCost}: Spell's mana cost
+# {Usage}: How to use the spell
+# {Description}: Spell's description. You can change it below
+SpellLore:
+- '{Description}'
+- '&fLevel: &d{Level}&f/&d{MaxLevel}'
+- '&fMana Cost: &9{ManaCost}'
+- '&8Usage: {Usage}'
+
+# Spell Information
+# {Name} text will be displayed as spell's item name
+# {Description} text will show up when you place {Description} above
+SpellInfo:
+  AntiHungerSpell:
+    Name: '&1Anti&6HungerSpell'
+    Description: '&fDefense against &6HungerSpell'
+  AntiPoisonSpell: 
+    Name: '&1Anti&2PoisonSpell'
+    Description: '&fDefense against &aPoisonSpell'
+  BombSpell: 
+    Name: '&1BombSpell'
+    # {Level}: Explosion's level
+    Description: '&fThrows a snowball which creates level &d{Level} &fexplosion'
+  DeathTouchSpell: 
+    Name: '&4DeathTouchSpell'
+    Description: '&fHit someone for &c&ninstant&f death'
+  EarthTameSpell:
+    Name: '&2Earth&6TameSpell'
+    # {Blocks}: Blocks affected by spell
+    Description: '&fMakes &d{Blocks} &fblocks to move'
+  FarmSpell: 
+    Name: '&2FarmSpell'
+    # {Animals}: Number of animals which will be spawned
+    Description: '&fSpawns &d{Animals} &frandom farm animals'
+  FeedSpell: 
+    Name: '&6FeedSpell'
+    # {Drumsticks}: Number of drumsticks which will be filled
+    Description: '&fFills &d{Drumsticks} &fdrumsticks' 
+  HealSpell: 
+    Name: '&4HealSpell'
+    # {HP}: HP which will be healed
+    Description: '&fHeals &c{HP}HP'
+  HeartsSpell: 
+    Name: '&4HeartsSpell'
+    Description: '&fGives you extra &c20HP &fforever!'
+  HungerSpell: 
+    Name: '&6HungerSpell'
+    Description: '&fHit someone to make him hungry'
+  LightningSpell: 
+    Name: '&2LightningSpell'
+    # {Lightnings}: Number of lightnings
+    Description: '&fThrows a bottle which releases &d{Lightnings} &flightnings'
+  PickPocketSpell: 
+    Name: '&5PickPocketSpell'
+    # {Items}: number of items which will be stolen
+    Description: '&fHit a player to steal &d{Items} &frandom item(s) from him'
+  PoisonSpell: 
+    Name: '&2PoisonSpell'
+    Description: '&fHit someone to poison him'  
+  ShadowSpell: 
+    Name: '&7ShadowSpell'
+    # {Duration}: Spell's duration
+    Description: '&fMakes a smoke cloud around you for &d{Duration} &fseconds'
+  SpiderSpell: 
+    Name: '&4SpiderSpell'
+    # {Blocks}: Number of web blocks
+    Description: '&fThrows &d{Blocks} &fweb blocks'
+
+# Change description line based on this number
+DescriptionLimit: 30
+
+# *** Spell Cases *** #
+# Spell Cases' lore
+# {Spells}: case's slots
+SpellCaseDescription: '&7Store up to &d{Spells} &7different kinds of spells!'

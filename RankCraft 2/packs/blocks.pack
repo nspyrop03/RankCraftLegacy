@@ -1,0 +1,44 @@
+# ***** Bronze Blocks Packs ***** #
+bronze_pack:
+- DIRT
+- STONE
+- GRASS
+- WOOD
+- COBBLESTONE
+- BOOKSHELF
+
+# The amount of blocks that you will earn
+# e.g: 3 DIRT, 1 WOOD, 8 COBBLESTONE, ... 
+bronze_pack_min_amount: 1
+bronze_pack_max_amount: 10
+
+# ***** Silver Blocks Packs ***** #
+silver_pack:
+- BRICK
+- PUMPKIN
+- SANDSTONE
+- STONE
+- GRASS
+- BOOKSHELF
+- WOOD
+- CACTUS
+
+# The amount of blocks that you will earn
+# e.g: 13 BRICK, 20 PUMPKIN, 19 CACTUS, ... 
+silver_pack_min_amount: 8
+silver_pack_max_amount: 23
+
+# ***** Gold Blocks Packs ***** #
+gold_pack:
+- IRON_ORE
+- GOLD_ORE
+- LAPIS_BLOCK
+- CACTUS
+- SANDSTONE
+- BRICK
+- PUMPKIN
+
+# The amount of blocks that you will earn
+# e.g: 47 IRON_ORE, 50 SANDSTONE, 31 LAPIS_BLOCK, ... 
+gold_pack_min_amount: 30
+gold_pack_max_amount: 50

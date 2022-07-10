@@ -1,0 +1,15 @@
+Material: STONE_SWORD
+Name: '&4Test01 &6Sword'
+MinDamage: 5.0
+MaxDamage: 8.5
+CriticalLuck: 50
+Rarity: EPIC
+MinLevel: 1
+HasRecipe: true
+IsSwordRecipe: true
+Recipe:
+- 'STONE'
+- 'GRASS'
+- 'STICK'
+Enchantments:
+- 'DURABILITY:2'

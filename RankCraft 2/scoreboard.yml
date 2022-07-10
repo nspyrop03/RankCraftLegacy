@@ -1,0 +1,39 @@
+# ***** RankCraft Scoreboard ***** #
+
+# Here you can customize the sidebar scoreboard
+
+# FROM THE VERSION 1.0.7.5+ YOU CAN USE PLACEHOLDERS!!!
+
+# Variables:
+# {player} 		  	= Player Name
+# {xp} 			  	= Player's xp
+# {level_up}		= Player's xp to level up
+# {level}	 	  	= Player's level
+# {rank} 		  	= Player's rank
+# {gold} 		  	= Player's gold
+# {mana} 		  	= Player's mana
+# {max_mana} 	  	= Player's max mana
+# {blocks_placed} 	= Player's blocks placed
+# {blocks_broken} 	= Player's blocks broken
+# {blank_line}      = A blank line
+# {hp}				= Player's HP
+# {max_hp}			= Player's Max HP
+# {hp_bar}			= Player's Health Bar
+
+# The title
+Title: '&4RankCraft'
+
+# There are 12 lines. If you place more lines in this list they won't show up
+Lines:
+- 'XP: {xp}/{level_up}'
+- '{blank_line}'
+- 'Level: {level}'
+- '{blank_line}'
+- 'Rank: {rank}'
+- '{blank_line}'
+- 'Gold: {gold}'
+- '{blank_line}'
+- 'Mana: {mana}/{max_mana}'
+- '{blank_line}'
+- 'HP: {hp}/{max_hp}'
+- '[{hp_bar}]'
