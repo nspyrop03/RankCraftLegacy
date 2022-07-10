@@ -124,6 +124,8 @@ public class Gold {
 		//meta.setDisplayName("§eGold : "+amt);
 		meta.setDisplayName(MainCore.instance.config.currencyName+" : "+amt);
 		
+		meta.setCustomModelData(1903170001);
+		
 		stack.setItemMeta(meta);
 		return stack;
 	}

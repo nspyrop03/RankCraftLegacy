@@ -1,5 +1,5 @@
 name: RankCraft
-version: 2.1.9
+version: 2.1.10
 api-version: 1.13
 main: me.amc.rankcraft.MainCore
 softdepends: [PlaceholderAPI, Vault, WorldGuard, WorldEdit, MVdWPlaceholderAPI, GriefPrevention]
