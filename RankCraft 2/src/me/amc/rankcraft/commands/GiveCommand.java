@@ -8,12 +8,12 @@ import java.util.List;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
 import me.amc.rankcraft.MainCore;
 import me.amc.rankcraft.PermissionList;
 import me.amc.rankcraft.classes.RpgClassData;
-import me.amc.rankcraft.items2.Excalibur;
 import me.amc.rankcraft.mobs.MobSpawner;
 import me.amc.rankcraft.mobs.YamlMob;
 import me.amc.rankcraft.packs.BlockPack;
@@ -22,6 +22,8 @@ import me.amc.rankcraft.packs.MixedPack;
 import me.amc.rankcraft.packs.Pack.PackLevel;
 import me.amc.rankcraft.rpgitem.CrystalSize;
 import me.amc.rankcraft.rpgitem.ManaCrystal;
+import me.amc.rankcraft.rpgitem.Rarity;
+import me.amc.rankcraft.rpgitem.RpgMaterial;
 import me.amc.rankcraft.rpgitem.XpCrystal;
 import me.amc.rankcraft.rpgitem.YamlArmor;
 import me.amc.rankcraft.rpgitem.YamlItem;
@@ -542,8 +544,12 @@ public class GiveCommand extends SubCommand {
 					
 					//testOpenSign(p);// it does now work
 					//p.getInventory().addItem(MainCore.instance.rankCraft.specialItems.zeusSword.getItem());
-					Excalibur sword = new Excalibur();
-					p.getInventory().addItem(sword.getItem());
+					//Excalibur sword = new Excalibur();
+					//p.getInventory().addItem(sword.getItem());
+					
+					RpgMaterial dark_bone = new RpgMaterial(Material.BONE, Rarity.COMMON, 10001);
+					dark_bone.setName(ChatColor.WHITE+"Dark Bone");
+					p.getInventory().addItem(dark_bone.build().getItem());
 					
 				}
 			}
